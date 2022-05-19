@@ -1,5 +1,5 @@
 /*
-** React CORS friendly Single Page Application - https://github.com/aws-samples/react-cors-spa 
+** React CORS friendly Single Page Application - https://github.com/aws-samples/react-cors-spa
 Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -23,7 +23,7 @@ import './App.css';
 import { useFetch } from "react-async"
 
 // To be replaced by the endpoint of the API deployed through the CloudFormation Template
-const APIEndPoint = 'to be replaced with your api endpoint here'
+const APIEndPoint = 'https://bg4osck3sf.execute-api.ap-southeast-1.amazonaws.com/v1/hello'
 
 function App() {
   return (
